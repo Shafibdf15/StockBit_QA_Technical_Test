@@ -38,8 +38,8 @@ Tech Stack
 
 ### For Web Tests
 1. To bypass Bibit Verification Process (OTP,PIN). user has to login manually their Bibit Account using the specific chrome port on console (cmd)
-   : C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\chrome-debug
-2. Go to `https://app.bibit.id` and login manually (Should be in Homepage) 
+   : "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\chrome-debug"
+3. Go to `https://app.bibit.id` and login manually (Should be in Homepage) 
 3. To run the test, can be done with these option:
    a. Custom Task: ./gradlew runWebTests
    b. Run the test from feature file in  /resources/webfeatures
